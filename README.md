@@ -8,7 +8,7 @@ It looks like this:
 
 ## Installation
 
-## Using [fundle](https://github.com/tuvistavie/fundle)
+### Using [fundle](https://github.com/tuvistavie/fundle)
 
 Add
 
@@ -18,6 +18,6 @@ fundle plugin 'tuvistavie/fish-theme-afowler'
 
 to your fish config, relaunch you shell and run `fundle install`.
 
-## Manual
+### Manual
 
 Source [init.sh](./init.fish) or just copy-paste it in your `config.fish`.
