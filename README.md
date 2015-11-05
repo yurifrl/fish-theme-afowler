@@ -20,4 +20,4 @@ to your fish config, relaunch you shell and run `fundle install`.
 
 ### Manual
 
-Source [init.sh](./init.fish) or just copy-paste it in your `config.fish`.
+Drop [functions/fish_prompt.fish](./functions/fish_prompt.fish) in your `~/.config/fish/functions` directory.
