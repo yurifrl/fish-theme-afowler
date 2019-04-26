@@ -8,12 +8,12 @@ It looks like this:
 
 ## Installation
 
-### Using [fundle](https://github.com/tuvistavie/fundle)
+### Using [fundle](https://github.com/yurifrl/fundle)
 
 Add
 
 ```
-fundle plugin 'tuvistavie/fish-theme-afowler'
+fundle plugin 'yurifrl/fish-theme-afowler'
 ```
 
 to your fish config, relaunch you shell and run `fundle install`.

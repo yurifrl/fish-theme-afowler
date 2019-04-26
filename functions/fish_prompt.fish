@@ -12,8 +12,16 @@ function __theme_afowler_git_prompt
 	end
 end
 
+function __current_context
+  echo -n (grep -Po '(?<=current-context:).*'  ~/.kube/config | xargs)
+end
+
 function fish_prompt
 	echo -n (hostname)
+	set_color --bold blue
+	echo -n "/"
+	set_color normal
+	echo -n (__current_context)
 	set_color --bold blue
 	echo -n " :: "
 	set_color normal
