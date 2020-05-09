@@ -13,7 +13,7 @@ function __theme_afowler_git_prompt
 end
 
 function __current_context
-  echo -n (grep -Po '(?<=current-context:).*'  ~/.kube/config | xargs)
+	echo -n (kubectl config view | grep -Po '(?<=current-context:).*' | xargs)
 end
 
 function fish_prompt
